@@ -28,6 +28,7 @@ jobs:
         pip install w3lib
         pip install lxml
         pip install scrapy
+        pip install testfixtures
         
     - name: Run Tests with Coverage
       run: |
