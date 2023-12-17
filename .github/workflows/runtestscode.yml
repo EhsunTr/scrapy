@@ -25,6 +25,7 @@ jobs:
         pip install coverage
         pip install pytest
         pip install twisted
+        pip install w3lib
         
     - name: Run Tests with Coverage
       run: |
