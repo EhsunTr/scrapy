@@ -29,6 +29,7 @@ jobs:
         pip install lxml
         pip install scrapy
         pip install testfixtures
+        pip install pexpect
         
     - name: Run Tests with Coverage
       run: |
