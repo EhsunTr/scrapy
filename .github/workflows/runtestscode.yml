@@ -30,6 +30,7 @@ jobs:
         pip install scrapy
         pip install testfixtures
         pip install pexpect
+        pip install uvloop
         
     - name: Run Tests with Coverage
       run: |
