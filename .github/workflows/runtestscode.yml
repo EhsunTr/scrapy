@@ -26,6 +26,8 @@ jobs:
         pip install pytest
         pip install twisted
         pip install w3lib
+        pip install lxml
+        pip install scrapy
         
     - name: Run Tests with Coverage
       run: |
